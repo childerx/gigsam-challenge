@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { Outlet } from "react-location";
-import logo from "@/assets/images/logo1.png";
+import logo from "@/assets/images/vercel.png";
 
 const AuthLayout: FC = () => {
   return (
