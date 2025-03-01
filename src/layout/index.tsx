@@ -5,7 +5,6 @@ import { useMatches } from "react-location";
 import _404Layout from "./_404";
 import AppLayout from "./app";
 import AuthLayout from "./auth";
-import AdminLayout from "./admin";
 
 const LayoutProvider: FC = () => {
   const matches = useMatches();
@@ -15,9 +14,6 @@ const LayoutProvider: FC = () => {
   switch (meta?.layout) {
     case "App": {
       return <AppLayout />;
-    }
-    case "Admin": {
-      return <AdminLayout />;
     }
     case "Auth": {
       return <AuthLayout />;

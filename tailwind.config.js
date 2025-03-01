@@ -31,6 +31,7 @@ export default {
         "large-screen": { max: "1536px" },
       },
       fontFamily: {
+        Geist: ["Geist", "sans-serif"],
         Merriweather: ["Merriweather", "serif"],
         museo: ["MuseoModerno", "sans"],
         manrope: ["Manrope", "sans"],

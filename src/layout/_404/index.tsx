@@ -1,5 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
-import ImageLoader from "@/components/loaders/ImageLoader";
+
 import _ from "lodash";
 import { Link, useMatches } from "react-location";
 
@@ -8,7 +8,7 @@ const _404Layout = () => {
 
   const meta = _.last(matches)?.route?.meta;
   if (!meta?.layout) {
-    return <ImageLoader />;
+    return "loading...";
   }
   return (
     <>
